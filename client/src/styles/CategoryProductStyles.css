@@ -1,0 +1,43 @@
+.card-img-top {
+    height: 300px !important;
+  }
+  
+  .card img:hover {
+    transform: scale(0.9);
+  }
+  
+  .card-body button{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top:10px !important;
+  }
+
+  .card-body .price {
+    font-size: 20px;
+    margin-top: 3px;
+    cursor:pointer;
+    color: green;
+    font-weight:bold;
+    border-radius: 20px;
+    /* background-color: black; */
+   
+  }
+  .card-body h5{
+    color:black;
+    font-weight: medium;
+    text-transform: capitalize;
+  }
+
+  .home-page h1{
+    color: rgb(93, 76, 76);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-style h2{
+    color: rgb(93, 76, 76);
+    font-family: 'Open Sans', sans-serif;
+}
+.container-style h5{
+    color: rgb(93, 76, 76);
+    font-family: 'Open Sans', sans-serif;
+}

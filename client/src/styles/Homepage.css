@@ -1,0 +1,157 @@
+.home-page h1{
+    color: rgb(93, 76, 76);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home-page .card {
+    background-color: rgba(128, 128, 128, 0.097);
+    width: 20rem !important;
+}
+
+.home-page .card:hover{
+  box-shadow:2px solid rgba(27, 1, 1, 0.097);
+
+}
+.home-page h5{
+  color:black;
+  font-weight: medium;
+  text-transform: capitalize;
+}
+
+
+.home-page {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .home-page:hover {
+   box-shadow: 2px solid red;
+  }
+
+  .home-page button {
+    
+    /* width: 50%; */
+    /* border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;  */
+     font-size: 14px;
+    font-weight: bold;
+    margin-top:10px !important;
+  }
+
+  .home-page .card-text {
+    color: rgb(90, 89, 89);
+    font-size: 17px;
+  }
+
+  .home-page .card img:hover {
+    transform: scale(0.9);
+  }
+
+  .home-page .card-img-top {
+    height: 300px !important;
+  }
+
+  /* .hom-page .load-more button{
+    width:100% !important;
+  } */
+
+   .card-body .price {
+    font-size: 20px;
+    margin-top: 3px;
+    cursor:pointer;
+    color: green;
+    font-weight:bold;
+    border-radius: 20px;
+    /* background-color: black; */
+   
+  }
+
+    .filters h4 {
+        margin-top: 100px;
+        color: rgb(63, 58, 58) !important;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+        text-transform: capitalize;
+        font-size: 30px;
+        font-family: 'Open Sans', sans-serif;
+
+      }
+
+      .filters button {
+        background-color: rgb(59, 59, 245) !important;
+        width: 100%;
+        border: none;
+        border-radius: 0;
+        margin-top: 20px;
+      }
+
+      .filters button:hover {
+        box-shadow: 2px solid red !important;
+        background-color: rgb(24, 24, 232) !important;
+      }
+
+
+      .ant-checkbox-wrapper {
+        margin: 2px;
+      }
+
+      .ant-checkbox-wrapper:first-of-type {
+        margin-left: 8px;
+      }
+
+      .ant-radio-wrapper {
+        margin-bottom: 5px !important;
+        margin-left: 10px;
+      }
+      
+      .loadmore {
+        color: green;
+        font-weight: bold;
+        font-size: 20px !important;
+        background-color: rgb(112, 112, 222) !important;
+      }
+
+
+
+
+      /* search Page Filter */
+
+           .search-box {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .search-box .card {
+        background-color: rgba(128, 128, 128, 0.097);
+        width: 20rem !important;
+    }
+
+    .search-box .card img:hover {
+      transform: scale(0.9);
+    }
+  
+    .search-box .card-img-top {
+      height: 300px !important;
+    }
+
+    .search h1{
+      color: rgb(93, 76, 76);
+      font-family: 'Open Sans', sans-serif;
+
+    }
+    .search h6{
+      color: rgb(18, 2, 2);
+      font-weight: bold;
+      font-family: 'Open Sans', sans-serif;
+
+    }
+    .search-btn button{
+      background-color: black!important;
+      width: 100% !important;
+      border: none !important;
+      border-radius: 20px;
+      
+      margin-top: 20px !important;
+      color:white
+
+    }
+    
